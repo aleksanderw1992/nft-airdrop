@@ -1,22 +1,28 @@
-
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 
-contract Betcomets is Ownable, ERC1155 {
+contract BetcometsErc1155 is Ownable, ERC1155 {
     string private baseURI;
     string public name = "!Betcomets VIP!";
     string public symbol = "!BTCMVIP!";
-
-    constructor() ERC1155("") {
+    uint256 private tokenId = 0;
+    
+    constructor() Ownable(msg.sender) ERC1155("https://ibb.co/ThpLpYR") {
     }
 
     function setBaseURI(string calldata _uri) external onlyOwner {
         baseURI = _uri;
     }
+    function setBaseUriAndIncrementTokenId(string calldata _uri) external onlyOwner {
+        baseURI = _uri;
+        tokenId++;
+    }
 
     function airdrop(address[] memory addresses) external onlyOwner {
         for (uint i = 0; i < addresses.length; i++) {
-            _mint(addresses[i], 0, 1, "");
+            _mint(addresses[i], tokenId, 1, "");
         }
     }
 
