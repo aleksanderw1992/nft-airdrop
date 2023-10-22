@@ -33,7 +33,7 @@ contract Deploy is Script {
 
     function run() public {
         vm.startBroadcast();
-        BetcometsErc1155 betcometsErc1155 = new BetcometsErc1155();
+        new BetcometsErc1155();
         vm.stopBroadcast();
     }
 }

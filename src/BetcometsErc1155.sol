@@ -8,9 +8,9 @@ contract BetcometsErc1155 is Ownable, ERC1155 {
     string private baseURI;
     string public name = "!Betcomets VIP!";
     string public symbol = "!BTCMVIP!";
-    uint256 private tokenId = 0;
+    uint256 public tokenId = 0;
     
-    constructor() Ownable(msg.sender) ERC1155("https://ibb.co/ThpLpYR") {
+    constructor() Ownable(msg.sender) ERC1155("") {
     }
 
     function setBaseURI(string calldata _uri) external onlyOwner {

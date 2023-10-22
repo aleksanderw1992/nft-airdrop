@@ -18,7 +18,7 @@ contract BetcometsErc1155Test is Test {
     }
     
     function testSetBaseUriAndIncrementTokenId() public {
-        string memory initialURI = "https://ibb.co/ThpLpYR";
+//        string memory initialURI = "https://ibb.co/ThpLpYR";
         // Initializing the URI directly
         string memory newURI = "https://another.uri.example";
         
