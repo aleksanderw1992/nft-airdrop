@@ -1,0 +1,12 @@
+{
+  "name": "Betcomets VIP Pass",
+  "description": "Congratulations! As a brand new casino, we’re thrilled to offer you exclusive **VIP** status at Betcomets Casino. Please prepare your NFT **contract address** and contact our live support to learn more about your benefits: (Beta access to Multiplayer rooms), (Higher betting limits), (Personal customer support agent), (Enhanced privacy and security).\n- **Register now at** [www.betcomets.com](https://www.betcomets.com/?campaign=nft_vip&affiliate_id=luke&utm_source=nft&utm_medium=description&utm_campaign=nft_vip&utm_id=drop_1&utm_term=polygon)",
+  "image": "https://tomato-worthy-gorilla-972.mypinata.cloud/ipfs/QmQjAXaQDsNdCm6F1ugtWENVfQoR71cmrYssRuhZ7oxd48?_gl=1*iissyd*_ga*MTk1MDg2NzMxNS4xNjk4MDA3MDMz*_ga_5RMPXG14TE*MTY5ODAwNzAzMy4xLjEuMTY5ODAwNzE4NS4zOC4wLjA.",
+  "external_url": "https://www.betcomets.com/?campaign=nft_vip&affiliate_id=luke&utm_source=nft&utm_medium=description&utm_campaign=nft_vip&utm_id=drop_1&utm_term=polygon",
+  "attributes": [
+	  {
+		  "trait_type": "Webstite",
+		  "value": "https://www.betcomets.com"
+	  }
+  ]
+}
